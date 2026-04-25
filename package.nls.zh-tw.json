@@ -53,5 +53,6 @@
     "command.toggleHidePanelOnDebugEnd": "為當前工作區切換退出調試模式時自動隱藏面板",
     "command.toggleShowRightSideBarOnDebugEnd": "為當前工作區切換退出調試模式時自動顯示右側邊栏",
     "command.toggleShowLeftSideBarOnDebugEnd": "為當前工作區切換退出調試模式時自動顯示左側邊欄",
-    "command.toggleShowPanelOnDebugEnd": "為當前工作區切換退出調試模式時自動顯示面板"
+    "command.toggleShowPanelOnDebugEnd": "為當前工作區切換退出調試模式時自動顯示面板",
+    "extension.category": "Other"
 }

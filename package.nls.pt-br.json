@@ -53,5 +53,6 @@
     "command.toggleHidePanelOnDebugEnd": "Alternar ocultação automática do painel no fim da depuração",
     "command.toggleShowRightSideBarOnDebugEnd": "Alternar exibição automática da barra lateral direita no fim da depuração",
     "command.toggleShowLeftSideBarOnDebugEnd": "Alternar exibição automática da barra lateral esquerda no fim da depuração",
-    "command.toggleShowPanelOnDebugEnd": "Alternar exibição automática do painel no fim da depuração"
+    "command.toggleShowPanelOnDebugEnd": "Alternar exibição automática do painel no fim da depuração",
+    "extension.category": "Other"
 }

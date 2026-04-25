@@ -53,5 +53,6 @@
     "command.toggleHidePanelOnDebugEnd": "Basculer le masquage automatique du panneau à la fin du débogage",
     "command.toggleShowRightSideBarOnDebugEnd": "Basculer l'affichage automatique de la barre latérale droite à la fin du débogage",
     "command.toggleShowLeftSideBarOnDebugEnd": "Basculer l'affichage automatique de la barre latérale gauche à la fin du débogage",
-    "command.toggleShowPanelOnDebugEnd": "Basculer l'affichage automatique du panneau à la fin du débogage"
+    "command.toggleShowPanelOnDebugEnd": "Basculer l'affichage automatique du panneau à la fin du débogage",
+    "extension.category": "Other"
 }

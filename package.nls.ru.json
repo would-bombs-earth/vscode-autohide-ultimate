@@ -53,5 +53,6 @@
     "command.toggleHidePanelOnDebugEnd": "Переключить автоскрытие панели при окончании отладки",
     "command.toggleShowRightSideBarOnDebugEnd": "Переключить автопоказ правой боковой панели при окончании отладки",
     "command.toggleShowLeftSideBarOnDebugEnd": "Переключить автопоказ левой боковой панели при окончании отладки",
-    "command.toggleShowPanelOnDebugEnd": "Переключить автопоказ панели при окончании отладки"
+    "command.toggleShowPanelOnDebugEnd": "Переключить автопоказ панели при окончании отладки",
+    "extension.category": "Other"
 }

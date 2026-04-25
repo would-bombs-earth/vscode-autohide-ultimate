@@ -53,5 +53,6 @@
     "command.toggleHidePanelOnDebugEnd": "Attiva/disattiva nascondi automaticamente pannello alla fine del debug",
     "command.toggleShowRightSideBarOnDebugEnd": "Attiva/disattiva mostra automaticamente barra laterale destra alla fine del debug",
     "command.toggleShowLeftSideBarOnDebugEnd": "Attiva/disattiva mostra automaticamente barra laterale sinistra alla fine del debug",
-    "command.toggleShowPanelOnDebugEnd": "Attiva/disattiva mostra automaticamente pannello alla fine del debug"
+    "command.toggleShowPanelOnDebugEnd": "Attiva/disattiva mostra automaticamente pannello alla fine del debug",
+    "extension.category": "Other"
 }

@@ -53,5 +53,6 @@
     "command.toggleHidePanelOnDebugEnd": "Automatisches Ausblenden des Panels bei Debug-Ende umschalten",
     "command.toggleShowRightSideBarOnDebugEnd": "Automatisches Anzeigen der rechten Seitenleiste bei Debug-Ende umschalten",
     "command.toggleShowLeftSideBarOnDebugEnd": "Automatisches Anzeigen der linken Seitenleiste bei Debug-Ende umschalten",
-    "command.toggleShowPanelOnDebugEnd": "Automatisches Anzeigen des Panels bei Debug-Ende umschalten"
+    "command.toggleShowPanelOnDebugEnd": "Automatisches Anzeigen des Panels bei Debug-Ende umschalten",
+    "extension.category": "Other"
 }

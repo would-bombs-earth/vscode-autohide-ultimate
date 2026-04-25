@@ -53,5 +53,6 @@
     "command.toggleHidePanelOnDebugEnd": "현재 작업 영역의 디버그 종료 시 패널 자동 숨김 토글",
     "command.toggleShowRightSideBarOnDebugEnd": "현재 작업 영역의 디버그 종료 시 오른쪽 사이드바 자동 표시 토글",
     "command.toggleShowLeftSideBarOnDebugEnd": "현재 작업 영역의 디버그 종료 시 왼쪽 사이드바 자동 표시 토글",
-    "command.toggleShowPanelOnDebugEnd": "현재 작업 영역의 디버그 종료 시 패널 자동 표시 토글"
+    "command.toggleShowPanelOnDebugEnd": "현재 작업 영역의 디버그 종료 시 패널 자동 표시 토글",
+    "extension.category": "Other"
 }

@@ -1,6 +1,7 @@
 {
     "extension.displayName": "Auto Hide Ultimate",
     "extension.description": "The ultimate productivity tool to automatically manage SideBar and Panel visibility.",
+    "extension.category": "Other",
     "config.title": "Auto Hide Ultimate",
     "config.autoHideRightSideBar": "Hide the right SideBar when the user clicks into a text editor.",
     "config.autoHideLeftSideBar": "Hide the left SideBar when the user clicks into a text editor.",

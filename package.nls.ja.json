@@ -53,5 +53,6 @@
     "command.toggleHidePanelOnDebugEnd": "現在のワークスペースでデバッグ終了時のパネル自動非表示を切り替える",
     "command.toggleShowRightSideBarOnDebugEnd": "現在のワークスペースでデバッグ終了時の右サイドバー自動表示を切り替える",
     "command.toggleShowLeftSideBarOnDebugEnd": "現在のワークスペースでデバッグ終了時の左サイドバー自動表示を切り替える",
-    "command.toggleShowPanelOnDebugEnd": "現在のワークスペースでデバッグ終了時のパネル自動表示を切り替える"
+    "command.toggleShowPanelOnDebugEnd": "現在のワークスペースでデバッグ終了時のパネル自動表示を切り替える",
+    "extension.category": "Other"
 }
