@@ -6,6 +6,8 @@
 
 ## ✨ Core Features
 
+![Demo](Images/Features/AutoHideSideBar.gif)
+
 ### 🖱️ Interactive Auto-Hide
 *   **SideBar**: Automatically hide the SideBar when you click into the editor.
 *   **Bottom Panel**: Seamlessly manage the visibility of Terminal, Output, and Debug Console.

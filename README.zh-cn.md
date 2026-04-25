@@ -6,6 +6,8 @@
 
 ## ✨ 核心功能 (Core Features)
 
+![演示](Images/Features/AutoHideSideBar.gif)
+
 ### 🖱️ 交互式自动隐藏
 *   **侧边栏 (SideBar)**: 点击编辑器时自动隐藏左侧或右侧栏。
 *   **底部面板 (Panel)**: 自动管理终端、输出、调试控制台的可见性。

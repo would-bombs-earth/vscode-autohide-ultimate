@@ -7,6 +7,8 @@
 
 ## ✨ Funciones principales
 
+![Demo](Images/Features/AutoHideSideBar.gif)
+
 ### 🖱️ Ocultación automática interactiva
 *   **Barra lateral**: Oculta automáticamente la barra lateral cuando hace clic en el editor.
 *   **Panel**: Gestione sin problemas la visibilidad de la terminal, la salida y la consola de depuración.

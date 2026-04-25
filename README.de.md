@@ -7,6 +7,8 @@
 
 ## ✨ Kernfunktionen
 
+![Demo](Images/Features/AutoHideSideBar.gif)
+
 ### 🖱️ Interaktives automatisches Ausblenden
 *   **Seitenleiste**: Blendet die Seitenleiste automatisch aus, wenn Sie in den Editor klicken.
 *   **Panel**: Verwaltet nahtlos die Sichtbarkeit von Terminal, Ausgabe und Debug-Konsole.

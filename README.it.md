@@ -7,6 +7,8 @@
 
 ## ✨ Funzionalità principali
 
+![Demo](Images/Features/AutoHideSideBar.gif)
+
 ### 🖱️ Nascondi automaticamente interattivo
 *   **Barra laterale**: Nasconde automaticamente la barra laterale quando si fa clic nell'editor.
 *   **Pannello inferiore**: Gestisci senza problemi la visibilità di terminale, output e console di debug.

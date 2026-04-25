@@ -7,6 +7,8 @@
 
 ## ✨ Caractéristiques principales
 
+![Demo](Images/Features/AutoHideSideBar.gif)
+
 ### 🖱️ Masquage automatique interactif
 *   **Barre latérale**: Masque automatiquement la barre latérale lorsque vous cliquez dans l'éditeur.
 *   **Panneau**: Gérez de manière transparente la visibilité du terminal, de la sortie et de la console de débogage.

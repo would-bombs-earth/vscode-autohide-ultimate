@@ -7,6 +7,8 @@
 
 ## ✨ Recursos principais
 
+![Demo](Images/Features/AutoHideSideBar.gif)
+
 ### 🖱️ Ocultação automática interativa
 *   **Barra lateral**: Oculta automaticamente a barra lateral quando você clica no editor.
 *   **Painel inferior**: Gerencie perfeitamente a visibilidade do terminal, saída e console de depuração.
