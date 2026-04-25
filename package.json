@@ -1,0 +1,161 @@
+{
+    "name": "vscode-autohide-ultimate",
+    "displayName": "%extension.displayName%",
+    "description": "%extension.description%",
+    "version": "2.0.0",
+    "author": "Ultimate Studio Team",
+    "publisher": "UltimateStudio",
+    "repository": {
+        "url": "https://github.com/ultimate-studio/vscode-autohide-ultimate"
+    },
+    "icon": "Images/Icons/Logo_128.png",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "extensionKind": [
+        "ui",
+        "workspace"
+    ],
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "configuration": {
+            "type": "object",
+            "title": "%config.title%",
+            "properties": {
+                "autoHidePlus.enabled": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "%config.enabled%"
+                },
+                "autoHidePlus.hideDelay": {
+                    "type": "number",
+                    "default": 0,
+                    "description": "%config.hideDelay%"
+                },
+                "autoHidePlus.excludeLanguages": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "default": [],
+                    "description": "%config.excludeLanguages%"
+                },
+                "autoHidePlus.hideOnFocusLost": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "%config.hideOnFocusLost%"
+                },
+                "autoHidePlus.autoHideIdleTimeout": {
+                    "type": "number",
+                    "default": 0,
+                    "description": "%config.autoHideIdleTimeout%"
+                },
+                "autoHidePlus.autoHideRightSideBar": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "%config.autoHideRightSideBar%"
+                },
+                "autoHidePlus.autoHideLeftSideBar": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "%config.autoHideLeftSideBar%"
+                },
+                "autoHidePlus.autoHidePanel": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "%config.autoHidePanel%"
+                },
+                "autoHidePlus.autoHideReferences": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "%config.autoHideReferences%"
+                },
+                "autoHidePlus.hideOnOpen": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "%config.hideOnOpen%"
+                },
+                "autoHidePlus.hideRightSideBarWhenDebug": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "%config.hideRightSideBarWhenDebug%"
+                },
+                "autoHidePlus.hideLeftSideBarWhenDebug": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "%config.hideLeftSideBarWhenDebug%"
+                },
+                "autoHidePlus.hidePanelWhenDebug": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "%config.hidePanelWhenDebug%"
+                }
+            }
+        },
+        "commands": [
+            {
+                "command": "autoHidePlus.toggleEnabled",
+                "category": "%extension.category%",
+                "title": "%command.toggleEnabled%"
+            },
+            {
+                "command": "autoHidePlus.toggleAutoHideRightSideBar",
+                "category": "%extension.category%",
+                "title": "%command.toggleAutoHideRightSideBar%"
+            },
+            {
+                "command": "autoHidePlus.toggleAutoHideLeftSideBar",
+                "category": "%extension.category%",
+                "title": "%command.toggleAutoHideLeftSideBar%"
+            },
+            {
+                "command": "autoHidePlus.toggleAutoHidePanel",
+                "category": "%extension.category%",
+                "title": "%command.toggleAutoHidePanel%"
+            },
+            {
+                "command": "autoHidePlus.toggleAutoHideReferences",
+                "category": "%extension.category%",
+                "title": "%command.toggleAutoHideReferences%"
+            },
+            {
+                "command": "autoHidePlus.toggleHideOnOpen",
+                "category": "%extension.category%",
+                "title": "%command.toggleHideOnOpen%"
+            },
+            {
+                "command": "autoHidePlus.toggleHideLeftSideBarWhenDebug",
+                "category": "%extension.category%",
+                "title": "%command.toggleHideLeftSideBarWhenDebug%"
+            },
+            {
+                "command": "autoHidePlus.toggleHideRightSideBarWhenDebug",
+                "category": "%extension.category%",
+                "title": "%command.toggleHideRightSideBarWhenDebug%"
+            },
+            {
+                "command": "autoHidePlus.toggleHidePanelWhenDebug",
+                "category": "%extension.category%",
+                "title": "%command.toggleHidePanelWhenDebug%"
+            }
+        ]
+    },
+    "scripts": {
+        "compile": "tsc -watch -p ./",
+        "vscode:prepublish": "tsc -p ./",
+        "publish": "vsce publish"
+    },
+    "devDependencies": {
+        "@types/mocha": "^2.2.32",
+        "@types/node": "^6.0.40",
+        "mocha": "^7.2.0",
+        "typescript": "^3.9.7",
+        "vscode": "^1.1.36"
+    }
+}
