@@ -28,7 +28,7 @@ export function activate(context: vscode.ExtensionContext) {
     };
 
     function DoCloseSideBars(isFromEditor: boolean, isDebugEnd: boolean = false) {
-        let config = vscode.workspace.getConfiguration("autoHidePlus");
+        let config = vscode.workspace.getConfiguration('autoHideUltimate');
         if (!config.enabled) return;
 
         let actions = GetSidebarCloseActions();
@@ -83,7 +83,7 @@ export function activate(context: vscode.ExtensionContext) {
     }
 
     function DoClosePanel(isFromEditor: boolean, isDebugEnd: boolean = false) {
-        let config = vscode.workspace.getConfiguration("autoHidePlus");
+        let config = vscode.workspace.getConfiguration('autoHideUltimate');
         if (!config.enabled) return;
 
         let activeDebug = !!vscode.debug.activeDebugSession;
@@ -119,7 +119,7 @@ export function activate(context: vscode.ExtensionContext) {
     }
 
     async function DoOpenSideBars(isFromEditor: boolean, isDebugEnd: boolean = false) {
-        let config = vscode.workspace.getConfiguration("autoHidePlus");
+        let config = vscode.workspace.getConfiguration('autoHideUltimate');
         if (!config.enabled) return;
 
         let actions = GetSidebarOpenActions();
@@ -165,7 +165,7 @@ export function activate(context: vscode.ExtensionContext) {
     }
 
     function DoOpenPanel(isFromEditor: boolean, isDebugEnd: boolean = false) {
-        let config = vscode.workspace.getConfiguration("autoHidePlus");
+        let config = vscode.workspace.getConfiguration('autoHideUltimate');
         if (!config.enabled) return;
 
         let activeDebug = !!vscode.debug.activeDebugSession;
@@ -192,7 +192,7 @@ export function activate(context: vscode.ExtensionContext) {
     }
 
     function resetIdleTimer() {
-        let config = vscode.workspace.getConfiguration("autoHidePlus");
+        let config = vscode.workspace.getConfiguration('autoHideUltimate');
         if (idleTimer) clearTimeout(idleTimer);
         if (config.enabled && config.autoHideIdleTimeout > 0) {
             idleTimer = setTimeout(() => {
@@ -203,7 +203,7 @@ export function activate(context: vscode.ExtensionContext) {
     }
 
     vscode.window.onDidChangeTextEditorSelection(selection => {
-        let config = vscode.workspace.getConfiguration("autoHidePlus");
+        let config = vscode.workspace.getConfiguration('autoHideUltimate');
         if (!config.enabled) return;
 
         resetIdleTimer();
@@ -240,7 +240,7 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
     vscode.window.onDidChangeWindowState(state => {
-        let config = vscode.workspace.getConfiguration("autoHidePlus");
+        let config = vscode.workspace.getConfiguration('autoHideUltimate');
         if (config.enabled && config.hideOnFocusLost && !state.focused) {
             DoCloseSideBars(true);
             DoClosePanel(true);
@@ -267,7 +267,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     context.subscriptions.push(
         vscode.commands.registerCommand("autoHidePlus.toggleEnabled", async () => {
-            let config = vscode.workspace.getConfiguration("autoHidePlus");
+            let config = vscode.workspace.getConfiguration('autoHideUltimate');
             await config.update("enabled", !config.enabled, vscode.ConfigurationTarget.Global);
         }));
 
@@ -298,7 +298,7 @@ export function activate(context: vscode.ExtensionContext) {
     toggleCommands.forEach(([cmd, prop]) => {
         context.subscriptions.push(
             vscode.commands.registerCommand(`autoHidePlus.${cmd}`, async () => {
-                let config = vscode.workspace.getConfiguration("autoHidePlus");
+                let config = vscode.workspace.getConfiguration('autoHideUltimate');
                 await config.update(prop, !config.get(prop), vscode.ConfigurationTarget.Workspace);
             })
         );

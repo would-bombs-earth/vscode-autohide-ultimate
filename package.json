@@ -2,7 +2,7 @@
     "name": "vscode-autohide-ultimate",
     "displayName": "%extension.displayName%",
     "description": "%extension.description%",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "author": "Ultimate Studio Team",
     "publisher": "UltimateStudio",
     "repository": {
@@ -28,17 +28,17 @@
             "type": "object",
             "title": "%config.title%",
             "properties": {
-                "autoHidePlus.enabled": {
+                "autoHideUltimate.enabled": {
                     "type": "boolean",
                     "default": true,
                     "description": "%config.enabled%"
                 },
-                "autoHidePlus.hideDelay": {
+                "autoHideUltimate.hideDelay": {
                     "type": "number",
                     "default": 0,
                     "description": "%config.hideDelay%"
                 },
-                "autoHidePlus.excludeLanguages": {
+                "autoHideUltimate.excludeLanguages": {
                     "type": "array",
                     "items": {
                         "type": "string"
@@ -46,52 +46,52 @@
                     "default": [],
                     "description": "%config.excludeLanguages%"
                 },
-                "autoHidePlus.hideOnFocusLost": {
+                "autoHideUltimate.hideOnFocusLost": {
                     "type": "boolean",
                     "default": false,
                     "description": "%config.hideOnFocusLost%"
                 },
-                "autoHidePlus.autoHideIdleTimeout": {
+                "autoHideUltimate.autoHideIdleTimeout": {
                     "type": "number",
                     "default": 0,
                     "description": "%config.autoHideIdleTimeout%"
                 },
-                "autoHidePlus.autoHideRightSideBar": {
+                "autoHideUltimate.autoHideRightSideBar": {
                     "type": "boolean",
                     "default": false,
                     "description": "%config.autoHideRightSideBar%"
                 },
-                "autoHidePlus.autoHideLeftSideBar": {
+                "autoHideUltimate.autoHideLeftSideBar": {
                     "type": "boolean",
                     "default": false,
                     "description": "%config.autoHideLeftSideBar%"
                 },
-                "autoHidePlus.autoHidePanel": {
+                "autoHideUltimate.autoHidePanel": {
                     "type": "boolean",
                     "default": false,
                     "description": "%config.autoHidePanel%"
                 },
-                "autoHidePlus.autoHideReferences": {
+                "autoHideUltimate.autoHideReferences": {
                     "type": "boolean",
                     "default": false,
                     "description": "%config.autoHideReferences%"
                 },
-                "autoHidePlus.hideOnOpen": {
+                "autoHideUltimate.hideOnOpen": {
                     "type": "boolean",
                     "default": false,
                     "description": "%config.hideOnOpen%"
                 },
-                "autoHidePlus.hideRightSideBarWhenDebug": {
+                "autoHideUltimate.hideRightSideBarWhenDebug": {
                     "type": "boolean",
                     "default": true,
                     "description": "%config.hideRightSideBarWhenDebug%"
                 },
-                "autoHidePlus.hideLeftSideBarWhenDebug": {
+                "autoHideUltimate.hideLeftSideBarWhenDebug": {
                     "type": "boolean",
                     "default": true,
                     "description": "%config.hideLeftSideBarWhenDebug%"
                 },
-                "autoHidePlus.hidePanelWhenDebug": {
+                "autoHideUltimate.hidePanelWhenDebug": {
                     "type": "boolean",
                     "default": true,
                     "description": "%config.hidePanelWhenDebug%"
@@ -100,47 +100,47 @@
         },
         "commands": [
             {
-                "command": "autoHidePlus.toggleEnabled",
+                "command": "autoHideUltimate.toggleEnabled",
                 "category": "%extension.category%",
                 "title": "%command.toggleEnabled%"
             },
             {
-                "command": "autoHidePlus.toggleAutoHideRightSideBar",
+                "command": "autoHideUltimate.toggleAutoHideRightSideBar",
                 "category": "%extension.category%",
                 "title": "%command.toggleAutoHideRightSideBar%"
             },
             {
-                "command": "autoHidePlus.toggleAutoHideLeftSideBar",
+                "command": "autoHideUltimate.toggleAutoHideLeftSideBar",
                 "category": "%extension.category%",
                 "title": "%command.toggleAutoHideLeftSideBar%"
             },
             {
-                "command": "autoHidePlus.toggleAutoHidePanel",
+                "command": "autoHideUltimate.toggleAutoHidePanel",
                 "category": "%extension.category%",
                 "title": "%command.toggleAutoHidePanel%"
             },
             {
-                "command": "autoHidePlus.toggleAutoHideReferences",
+                "command": "autoHideUltimate.toggleAutoHideReferences",
                 "category": "%extension.category%",
                 "title": "%command.toggleAutoHideReferences%"
             },
             {
-                "command": "autoHidePlus.toggleHideOnOpen",
+                "command": "autoHideUltimate.toggleHideOnOpen",
                 "category": "%extension.category%",
                 "title": "%command.toggleHideOnOpen%"
             },
             {
-                "command": "autoHidePlus.toggleHideLeftSideBarWhenDebug",
+                "command": "autoHideUltimate.toggleHideLeftSideBarWhenDebug",
                 "category": "%extension.category%",
                 "title": "%command.toggleHideLeftSideBarWhenDebug%"
             },
             {
-                "command": "autoHidePlus.toggleHideRightSideBarWhenDebug",
+                "command": "autoHideUltimate.toggleHideRightSideBarWhenDebug",
                 "category": "%extension.category%",
                 "title": "%command.toggleHideRightSideBarWhenDebug%"
             },
             {
-                "command": "autoHidePlus.toggleHidePanelWhenDebug",
+                "command": "autoHideUltimate.toggleHidePanelWhenDebug",
                 "category": "%extension.category%",
                 "title": "%command.toggleHidePanelWhenDebug%"
             }
