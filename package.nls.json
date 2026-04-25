@@ -1,8 +1,7 @@
 {
     "extension.displayName": "Auto Hide Ultimate",
-    "extension.description": "The ultimate productivity tool to automatically manage VS Code UI visibility with precision control.",
-    "extension.category": "Auto Hide",
-    "config.title": "Auto Hide configuration",
+    "extension.description": "The ultimate productivity tool to automatically manage SideBar and Panel visibility.",
+    "config.title": "Auto Hide Ultimate",
     "config.autoHideRightSideBar": "Hide the right SideBar when the user clicks into a text editor.",
     "config.autoHideLeftSideBar": "Hide the left SideBar when the user clicks into a text editor.",
     "config.autoHidePanel": "Hide the Panel (output, terminal, etc.) when the user clicks into a text editor.",

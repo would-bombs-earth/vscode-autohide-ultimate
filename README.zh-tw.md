@@ -7,7 +7,7 @@
 
 ## ✨ 核心功能 (Core Features)
 
-![Demo](Images/Features/AutoHideSideBar.gif)
+![Demo](https://raw.githubusercontent.com/would-bombs-earth/vscode-autohide-ultimate/main/Images/Features/AutoHideSideBar.gif)
 
 ### 🖱️ 交互式自動隱藏
 *   **側邊欄 (SideBar)**: 點擊編輯器時自動隱藏左側或右側欄。

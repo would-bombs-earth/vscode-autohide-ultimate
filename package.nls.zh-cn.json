@@ -1,6 +1,7 @@
 {
     "extension.displayName": "Auto Hide Ultimate (自动隐藏终极版)",
     "extension.description": "极致的生产力工具，精准控制 VS Code 侧边栏与面板的自动隐藏与显示。",
+    "extension.shortDescription": "管理 VS Code 侧边栏和面板可见性的终极效率工具。",
     "extension.category": "自动隐藏",
     "config.title": "自动隐藏配置",
     "config.autoHideRightSideBar": "当用户点击文本编辑器时，隐藏右侧边栏。",

@@ -7,7 +7,7 @@
 
 ## ✨ Caractéristiques principales
 
-![Demo](Images/Features/AutoHideSideBar.gif)
+![Demo](https://raw.githubusercontent.com/would-bombs-earth/vscode-autohide-ultimate/main/Images/Features/AutoHideSideBar.gif)
 
 ### 🖱️ Masquage automatique interactif
 *   **Barre latérale**: Masque automatiquement la barre latérale lorsque vous cliquez dans l'éditeur.

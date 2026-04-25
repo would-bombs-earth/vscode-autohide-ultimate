@@ -7,7 +7,7 @@
 
 ## ✨ Основные функции
 
-![Demo](Images/Features/AutoHideSideBar.gif)
+![Demo](https://raw.githubusercontent.com/would-bombs-earth/vscode-autohide-ultimate/main/Images/Features/AutoHideSideBar.gif)
 
 ### 🖱️ Интерактивное автоскрытие
 *   **Боковая панель**: автоматически скрывает боковую панель при клике в редакторе.

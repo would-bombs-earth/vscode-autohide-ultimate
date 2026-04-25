@@ -6,7 +6,7 @@
 
 ## ✨ 核心功能 (Core Features)
 
-![演示](Images/Features/AutoHideSideBar.gif)
+![演示](https://raw.githubusercontent.com/would-bombs-earth/vscode-autohide-ultimate/main/Images/Features/AutoHideSideBar.gif)
 
 ### 🖱️ 交互式自动隐藏
 *   **侧边栏 (SideBar)**: 点击编辑器时自动隐藏左侧或右侧栏。
@@ -33,28 +33,6 @@
 
 ### 🌑 失去焦点自动隐藏 (Focus-Lost Hide)
 当你切换到浏览器查找资料时，VS Code 会自动收起所有辅助栏。当你切回 VS Code 时，迎接你的是最宽敞的编辑区域。
-
-### 🔘 全局一键开关 (Master Toggle)
-随时通过状态栏或命令面板开启/关闭所有功能，无需修改繁琐的设置。
-
----
-
-## ⚙️ 快速配置 (Quick Settings)
-
-| 设置项 | 描述 | 默认值 |
-| :--- | :--- | :--- |
-| `autoHidePlus.enabled` | 全局功能总开关 | `true` |
-| `autoHidePlus.hideDelay` | 隐藏前的延迟（毫秒） | `0` |
-| `autoHidePlus.autoHideIdleTimeout` | 闲置隐藏超时（秒，0为禁用） | `0` |
-| `autoHidePlus.excludeLanguages` | 排除自动隐藏的语言列表 | `[]` |
-| `autoHidePlus.hideOnFocusLost` | 失去焦点时自动隐藏 | `false` |
-
----
-
-## 🎹 快捷键支持 (Commands)
-
-*   `Auto Hide Plus: Toggle Auto Hide Plus Global Switch`: 切换插件总开关。
-*   `Auto Hide Plus: Toggle AutoHide SideBars...`: 切换特定栏位的自动隐藏状态。
 
 ---
 

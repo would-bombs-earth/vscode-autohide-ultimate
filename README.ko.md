@@ -7,7 +7,7 @@
 
 ## ✨ 핵심 기능
 
-![Demo](Images/Features/AutoHideSideBar.gif)
+![Demo](https://raw.githubusercontent.com/would-bombs-earth/vscode-autohide-ultimate/main/Images/Features/AutoHideSideBar.gif)
 
 ### 🖱️ 대화형 자동 숨김
 *   **사이드바**: 에디터를 클릭하면 왼쪽 또는 오른쪽 사이드바를 자동으로 숨깁니다.

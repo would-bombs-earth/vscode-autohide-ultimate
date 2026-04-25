@@ -7,7 +7,7 @@
 
 ## ✨ Funzionalità principali
 
-![Demo](Images/Features/AutoHideSideBar.gif)
+![Demo](https://raw.githubusercontent.com/would-bombs-earth/vscode-autohide-ultimate/main/Images/Features/AutoHideSideBar.gif)
 
 ### 🖱️ Nascondi automaticamente interattivo
 *   **Barra laterale**: Nasconde automaticamente la barra laterale quando si fa clic nell'editor.

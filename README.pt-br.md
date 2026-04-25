@@ -7,7 +7,7 @@
 
 ## ✨ Recursos principais
 
-![Demo](Images/Features/AutoHideSideBar.gif)
+![Demo](https://raw.githubusercontent.com/would-bombs-earth/vscode-autohide-ultimate/main/Images/Features/AutoHideSideBar.gif)
 
 ### 🖱️ Ocultação automática interativa
 *   **Barra lateral**: Oculta automaticamente a barra lateral quando você clica no editor.

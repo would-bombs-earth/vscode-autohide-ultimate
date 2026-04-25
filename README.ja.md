@@ -7,7 +7,7 @@
 
 ## ✨ コア機能
 
-![Demo](Images/Features/AutoHideSideBar.gif)
+![Demo](https://raw.githubusercontent.com/would-bombs-earth/vscode-autohide-ultimate/main/Images/Features/AutoHideSideBar.gif)
 
 ### 🖱️ インタラクティブな自動非表示
 *   **サイドバー**: エディタをクリックすると、左側または右側のサイドバーを自動的に非表示にします。
